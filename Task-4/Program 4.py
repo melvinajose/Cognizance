@@ -9,6 +9,6 @@ while temp>0:
     temp=temp//10
     rev=rev*10+l
 if rev==num:
-    print(num,"is a palindrome number.")
+    print("True")
 else:
-    print(num,"is not a palindrome number.")
+    print("False")
